@@ -1,68 +1,26 @@
-<!-- =========================================================
-     MANYUSI ALPHONCE — GITHUB PROFILE README
-     Repository: manyusialphonce
-     ========================================================= -->
-
 <div align="center">
 
-  <!-- ===================== BANNER ===================== -->
+<img src="./assets/github-banner.png" alt="Manyusi Alphonce GitHub Banner" width="100%"/>
 
-  <img
-    src="./assets/github-banner.png"
-    width="100%"
-    alt="Manyusi Alphonce - Full-Stack Engineer"
-  />
+# MANYUSI ALPHONCE
 
-  <br />
-  <br />
+### Full-Stack Engineer · Product Builder · Systems Thinker
 
-  <h1>MANYUSI ALPHONCE</h1>
+🇹🇿 Tanzania
 
-  <h3>FULL-STACK ENGINEER · PRODUCT BUILDER · SYSTEMS THINKER</h3>
-
-  <p>
-    Building practical digital products that solve real-world problems.
-  </p>
-
-  <br />
-
-  <!-- ===================== SOCIAL LINKS ===================== -->
-
-  <a href="https://github.com/manyusialphonce">
-    <img
-      src="https://img.shields.io/badge/GitHub-0B1F3A?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
-  </a>
-
+<p>
   <a href="YOUR_LINKEDIN_URL">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-
   <a href="mailto:YOUR_EMAIL">
-    <img
-      src="https://img.shields.io/badge/Email-0B1F3A?style=for-the-badge&logo=gmail&logoColor=white"
-      alt="Email"
-    />
+    <img src="https://img.shields.io/badge/Email-Say%20Hello-22D3EE?style=for-the-badge&logo=gmail&logoColor=black" alt="Email"/>
   </a>
-
   <a href="YOUR_PORTFOLIO_URL">
-    <img
-      src="https://img.shields.io/badge/Portfolio-0B1F3A?style=for-the-badge&logo=googlechrome&logoColor=white"
-      alt="Portfolio"
-    />
+    <img src="https://img.shields.io/badge/Portfolio-Visit-0B1F3A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
+</p>
 
-  <br />
-  <br />
-
-  <img
-    src="https://komarev.com/ghpvc/?username=manyusialphonce&label=PROFILE%20VIEWS&color=0B1F3A&style=for-the-badge"
-    alt="Profile Views"
-  />
+<img src="https://komarev.com/ghpvc/?username=manyusialphonce&label=PROFILE%20VIEWS&color=22D3EE&style=flat-square" alt="Profile views"/>
 
 </div>
 
@@ -70,183 +28,118 @@
 
 # 👋 ABOUT ME
 
-I'm **Manyusi Alphonce**, a **Full-Stack Engineer from Tanzania** focused on building useful, secure, maintainable and scalable digital products.
+I'm **Manyusi Alphonce**, a Full-Stack Engineer, Product Builder and Systems Thinker from Tanzania.
 
-I enjoy working across the entire software development lifecycle — from understanding a real-world problem, designing the system, building the application, securing it, testing it, deploying it and continuously improving it.
+I enjoy turning real-world problems into practical digital products — from education platforms and business systems to data-driven tools and scalable web applications.
 
-My approach is simple:
+My approach combines:
 
-> **Understand the problem. Design the system. Build the solution. Ship it. Improve it.**
+**Product Thinking + Software Engineering + System Design + Real-World Impact**
 
-I'm particularly interested in:
+I don't only focus on writing code. I think about the complete journey:
 
-- 🧩 Full-Stack Engineering
-- 🏗️ Software Architecture
-- ⚙️ Backend Engineering
-- 🔐 Authentication & Authorization
-- 🗄️ Database Systems
-- 🌐 API Design
-- ☁️ Deployment & DevOps
-- 📱 Digital Products
-- 🚀 Product Engineering
-- 🇹🇿 Technology for real-world problems
+**Problem → Product → System → Users → Feedback → Improvement**
 
 ---
 
-# 💻 `$ whoami`
+# `$ whoami`
 
-```bash
-manyusi@developer:~$ ./about-me
+```text
+Name        : Manyusi Alphonce
+Role        : Full-Stack Engineer / Product Builder
+Location    : Tanzania 🇹🇿
+Focus       : Web Applications, APIs, Systems & Digital Products
+Mindset     : Build → Ship → Learn → Improve
+```
 
-╔════════════════════════════════════════════════════╗
-║                  DEVELOPER PROFILE                 ║
-╠════════════════════════════════════════════════════╣
-║ Name       : Manyusi Alphonce                     ║
-║ Role       : Full-Stack Engineer                  ║
-║ Location   : Tanzania 🇹🇿                          ║
-║ GitHub     : manyusialphonce                      ║
-║ Focus      : Product & Software Engineering       ║
-╠════════════════════════════════════════════════════╣
-║ Building   : ELMKUSOMA                            ║
-║              TDOP                                  ║
-║              Manyusi Technologies                  ║
-╠════════════════════════════════════════════════════╣
-║ Philosophy : Build → Ship → Learn → Improve       ║
-╚════════════════════════════════════════════════════╝
+---
+
 # 🚀 WHAT I'M BUILDING
 
 <div align="center">
 
-### 📚 ELMKUSOMA
-**Education & Learning Platform**
-
-</div>
-
-ELMKUSOMA is a digital learning ecosystem focused on making education more accessible, organized and scalable.
-
-The platform is designed to support:
-
-- 🎓 Online learning and courses
-- 👨‍🎓 Learner accounts and profiles
-- 📚 Course management
-- 💳 Payments and subscriptions
-- 🔐 Authentication and access control
-- 📈 Learner progress tracking
-- 🎯 Course entitlements
-- 🏫 Digital education management
-
-**Focus:** `Education` · `E-Learning` · `Payments` · `Subscriptions` · `Authentication` · `Progress Tracking`
-
----
-
-<div align="center">
-
-### 🎯 TDOP
-**Tanzania Digital Opportunity Platform**
-
-</div>
-
-TDOP is a digital opportunity platform designed to help people discover, understand, prepare for, apply to and track opportunities from one place.
-
-The platform focuses on making opportunities easier to discover and helping users move from **discovery → preparation → application → tracking**.
-
-**Focus:** `Opportunities` · `Applications` · `Youth` · `Career` · `Education` · `Digital Access`
-
----
-
-<div align="center">
-
-### 🏢 MANYUSI TECHNOLOGIES
-**Digital Products & Technology Solutions**
-
-</div>
-
-Manyusi Technologies is focused on building practical software products and digital solutions that solve real-world problems.
-
-The vision is to combine software engineering, technology and innovation to create products that are useful, scalable and accessible.
-
-**Focus:** `Software` · `Digital Products` · `Business Solutions` · `Innovation` · `Technology`
-
----
-
-# 🧠 TECH STACK
-
-<div align="center">
-
-### FRONTEND
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" />
-
-<br><br>
-
-### BACKEND
-
-<img src="https://skillicons.dev/icons?i=nodejs,python,java,spring,php,express" />
-
-<br><br>
-
-### DATABASE
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis" />
-
-<br><br>
-
-### DEVOPS & INFRASTRUCTURE
-
-<img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx,aws" />
-
-<br><br>
-
-### TOOLS
-
-<img src="https://skillicons.dev/icons?i=vscode,postman,figma,bash" />
+| Product | Focus |
+|---|---|
+| 🎓 **ELMKUSOMA** | Education & Learning Platform |
+| 🌍 **TDOP** | Tanzania Digital Opportunity Platform |
+| 🏢 **Manyusi Technologies** | Digital Products & Technology Solutions |
+| 💼 **Manyusi Sales System** | Sales & Business Operations |
+| 🍽️ **Restaurant Management System** | Restaurant Operations |
+| 🚚 **Logistics Management System** | Logistics & Operations |
+| 🏠 **Hostel Management System** | Hostel & Accommodation Management |
 
 </div>
 
 ---
 
-# 📊 GITHUB STATS
+# 🛠️ TECH STACK
+
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend technologies"/>
+</p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,php,java" alt="Backend technologies"/>
+</p>
+
+### Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,firebase" alt="Database technologies"/>
+</p>
+
+### DevOps & Infrastructure
+
+<p>
+<img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx,vercel" alt="DevOps technologies"/>
+</p>
+
+### Tools & Workflow
+
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,figma,postman" alt="Tools"/>
+</p>
+
+---
+
+# 📊 GITHUB ANALYTICS
 
 <div align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=manyusialphonce&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=C9D1D9&rank_icon=github"
-  width="49%"
-  alt="Manyusi GitHub Stats"
+src="https://github-readme-stats.vercel.app/api?username=manyusialphonce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+alt="GitHub Stats"
 />
 
+<br><br>
+
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9&langs_count=10"
-  width="49%"
-  alt="Most Used Languages"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&theme=tokyonight&hide_border=true"
+alt="Top Languages"
+/>
+
+<br><br>
+
+<img
+src="https://streak-stats.demolab.com?user=manyusialphonce&theme=tokyonight&hide_border=true"
+alt="GitHub Streak"
 />
 
 </div>
 
 ---
 
-# 🔥 GITHUB STREAK
+# 🏆 GITHUB TROPHIES
 
 <div align="center">
 
 <img
-  src="https://streak-stats.demolab.com?user=manyusialphonce&theme=dark&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE"
-  width="80%"
-  alt="GitHub Streak"
-/>
-
-</div>
-
----
-
-# 🏆 GITHUB ACHIEVEMENTS
-
-<div align="center">
-
-<img
-  src="https://github-profile-trophy.vercel.app/?username=manyusialphonce&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1"
-  width="100%"
-  alt="GitHub Achievements"
+src="https://github-profile-trophy.vercel.app/?username=manyusialphonce&theme=algolia&no-frame=true&no-bg=true&margin-w=8"
+alt="GitHub Trophies"
 />
 
 </div>
@@ -258,343 +151,28 @@ The vision is to combine software engineering, technology and innovation to crea
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=manyusialphonce&bg_color=0D1117&color=22D3EE&line=22D3EE&point=FFFFFF&area=true&hide_border=true"
-  width="100%"
-  alt="GitHub Contribution Activity"
+src="https://github-readme-activity-graph.vercel.app/graph?username=manyusialphonce&theme=tokyo-night&hide_border=true&area=true"
+alt="Contribution Activity Graph"
 />
 
 </div>
 
 ---
 
-# ⚡ CURRENTLY
-
-### 🚧 BUILDING
-
-**ELMKUSOMA · TDOP · Manyusi Technologies**
-
-Building digital platforms focused on education, opportunities and practical technology solutions.
-
----
-
-### 🧠 EXPLORING
-
-**Software Architecture & Scalable Systems**
-
-Learning and applying better approaches to designing systems that are maintainable, reliable and ready to grow.
-
----
-
-### 🔐 FOCUSED ON
-
-**Secure Full-Stack Engineering**
-
-`Authentication` · `Authorization` · `RBAC` · `API Security` · `Data Protection`
-
----
-
-### 🚀 IMPROVING
-
-**Product Engineering**
-
-Moving beyond simply writing code and focusing on building complete products that solve real problems.
-
----
-
-### 🤝 OPEN TO
-
-**Collaboration · Freelance Work · Open Source · Meaningful Projects**
-
-I'm open to working with people and teams building useful technology.
-
----
-
-# 📂 FEATURED PROJECTS
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-## 📚 ELMKUSOMA
-
-### Education & Learning Platform
-
-A digital learning ecosystem designed around courses, subscriptions, payments, learning access and learner progress.
-
-**Built around**
-
-`Education` `Full-Stack` `Payments` `Authentication`
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🎯 TDOP
-
-### Tanzania Digital Opportunity Platform
-
-A platform designed to help users discover, understand, prepare for, apply to and track opportunities.
-
-**Built around**
-
-`Opportunities` `Applications` `Platform` `Full-Stack`
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🛒 MANYUSI SALES SYSTEM
-
-### Business & Sales Management
-
-A software system designed to manage products, sales, users and everyday business operations.
-
-**Built around**
-
-`Business` `Sales` `Database` `Backend`
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🍽️ RESTAURANT MANAGEMENT SYSTEM
-
-### Restaurant Operations
-
-A digital system designed to manage restaurant operations, products, orders, inventory and workflows.
-
-**Built around**
-
-`Management` `POS` `Orders` `Inventory`
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🚚 LOGISTICS MANAGEMENT SYSTEM
-
-### Logistics & Operations
-
-A digital system focused on managing logistics operations, workflows and business processes.
-
-**Built around**
-
-`Logistics` `Operations` `Management`
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🏠 HOSTEL MANAGEMENT SYSTEM
-
-### Accommodation Management
-
-A platform designed to manage rooms, residents, accommodation records and administrative workflows.
-
-**Built around**
-
-`Management` `Database` `Administration`
-
-</td>
-
-</tr>
-</table>
-
----
-
-# 🏗️ ENGINEERING MINDSET
-
-```text
-                         REAL-WORLD PROBLEM
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │   UNDERSTAND    │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │     DESIGN      │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │      BUILD      │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │      TEST       │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │     DEPLOY      │
-                         └────────┬────────┘
-                                  │
-                                  ▼
-                         ┌─────────────────┐
-                         │    IMPROVE      │
-                         └─────────────────┘
-
-
-# 🔐 ENGINEERING INTERESTS
+# 🐍 CONTRIBUTION SNAKE
 
 <div align="center">
 
-<table>
-<tr>
-
-<td align="center" width="25%">
-
-### 🏗️
-
-**Software Architecture**
-
-Designing systems that are scalable, maintainable and easy to evolve.
-
-</td>
-
-<td align="center" width="25%">
-
-### ⚙️
-
-**Backend Engineering**
-
-Building reliable APIs, services, business logic and backend systems.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🗄️
-
-**Database Systems**
-
-Designing structured, reliable and efficient data systems.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🔐
-
-**Security**
-
-Authentication, authorization, access control and data protection.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td align="center" width="25%">
-
-### 🌐
-
-**API Engineering**
-
-Designing APIs that allow systems and services to communicate effectively.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🎨
-
-**Frontend Engineering**
-
-Building responsive, accessible and user-friendly interfaces.
-
-</td>
-
-<td align="center" width="25%">
-
-### ☁️
-
-**DevOps**
-
-Deployment, Linux, containers, infrastructure and reliable environments.
-
-</td>
-
-<td align="center" width="25%">
-
-### 🚀
-
-**Product Engineering**
-
-Turning ideas and real-world problems into usable digital products.
-
-</td>
-
-</tr>
-</table>
+<img
+src="https://raw.githubusercontent.com/manyusialphonce/manyusialphonce/output/github-contribution-grid-snake.svg"
+alt="GitHub Contribution Snake"
+/>
 
 </div>
 
+> If the snake image does not appear, configure a GitHub Action to generate `output/github-contribution-grid-snake.svg`.
+
 ---
-
-# 🧪 DEVELOPMENT WORKFLOW
-
-```text
-                         ┌───────────────┐
-                         │     IDEA      │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │  UNDERSTAND   │
-                         │   THE PROBLEM │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │    DESIGN     │
-                         │   THE SYSTEM  │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │     BUILD     │
-                         │   THE PRODUCT │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │     TEST      │
-                         │   & VALIDATE  │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │    DEPLOY     │
-                         │    & SHIP     │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │    MONITOR    │
-                         │    & LEARN    │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │    IMPROVE    │
-                         │    & SCALE    │
-                         └───────────────┘
-
-
 
 # 🧩 HOW I THINK ABOUT SOFTWARE
 
@@ -670,9 +248,17 @@ I think about the complete system — from the person using it to the infrastruc
                        └────────┬────────┘
                                 │
                                 └──────────────► REPEAT
+```
 
+My goal is to build software that is:
 
+**Useful · Secure · Reliable · Maintainable · Scalable**
 
+---
+
+# 🧠 ENGINEERING PRINCIPLES
+
+```text
 01  UNDERSTAND
     Understand the problem before building the solution.
 
@@ -702,3 +288,198 @@ I think about the complete system — from the person using it to the infrastruc
 
 10  SCALE
     Prepare the product and architecture for future growth.
+```
+
+---
+
+# 💡 DEVELOPMENT PHILOSOPHY
+
+<div align="center">
+
+## BUILD THINGS THAT MATTER.
+
+I believe technology should not exist simply because it can be built.
+
+It should exist because it solves a problem, creates value, improves an experience or opens a new opportunity.
+
+| 🧠 UNDERSTAND | 🏗️ BUILD | 🚀 SHIP | 🔄 IMPROVE |
+|---|---|---|---|
+| Understand the problem before writing the solution. | Turn ideas into reliable working products. | Deliver products that people can actually use. | Learn, iterate and make every version better. |
+
+</div>
+
+---
+
+# 🌍 WHY I BUILD
+
+Technology becomes meaningful when it solves problems that people actually experience.
+
+I'm interested in building products that can contribute to:
+
+- 🎓 Better access to education
+- 💼 More digital opportunities
+- 🏢 Better business operations
+- 📊 Better access to information
+- 🌐 Digital transformation
+- 🚀 Entrepreneurship and innovation
+- 🇹🇿 Tanzania's growing technology ecosystem
+
+I want to build software that is not only technically interesting, but also **useful in the real world**.
+
+---
+
+# 📚 CURRENTLY LEARNING
+
+| Area | Focus |
+|---|---|
+| 🏗️ **System Architecture** | Scalable and maintainable systems |
+| 🔐 **Application Security** | Authentication, authorization and data protection |
+| ⚙️ **Backend Engineering** | APIs, services and business logic |
+| ☁️ **DevOps** | Linux, containers, deployment and infrastructure |
+| 🧠 **AI Engineering** | AI-powered features and intelligent products |
+| 📊 **Data Systems** | Data-driven products and decisions |
+
+---
+
+# 🚀 WHAT'S NEXT
+
+```text
+                              TODAY
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │     BUILD     │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │     LEARN     │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │     SHIP      │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │    IMPROVE    │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │     SCALE     │
+                        └───────┬───────┘
+                                │
+                                ▼
+                        ┌───────────────┐
+                        │    IMPACT     │
+                        └───────────────┘
+```
+
+**Engineering + Innovation + Practicality + Real-world Impact**
+
+---
+
+# 🤝 COLLABORATION
+
+I'm open to collaborating on projects involving:
+
+- 🚀 Startups and new products
+- 💻 Full-stack applications
+- 🎓 Education technology
+- 💼 Business management systems
+- 🧠 AI-powered products
+- 🌍 Social-impact technology
+- 🔐 Secure digital platforms
+- 🌐 Open-source projects
+- 💡 Interesting technical ideas
+
+I enjoy working with people who want to turn ideas into useful products.
+
+---
+
+# 📫 LET'S CONNECT
+
+<div align="center">
+
+## HAVE AN IDEA?
+
+### LET'S BUILD IT.
+
+Whether you're building a product, solving a technical problem, or exploring an interesting idea — let's connect.
+
+<br>
+
+<a href="mailto:YOUR_EMAIL">
+<img src="https://img.shields.io/badge/EMAIL-SAY%20HELLO-22D3EE?style=for-the-badge&logo=gmail&logoColor=black" alt="Email"/>
+</a>
+
+&nbsp;
+
+<a href="YOUR_LINKEDIN_URL">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0B1F3A?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+&nbsp;
+
+<a href="YOUR_PORTFOLIO_URL">
+<img src="https://img.shields.io/badge/PORTFOLIO-VISIT-0B1F3A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+</a>
+
+<br><br>
+
+<a href="https://github.com/manyusialphonce">
+<img src="https://img.shields.io/badge/GITHUB-MANYUSIALPHONCE-0B1F3A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+</div>
+
+---
+
+# 💬 A FINAL THOUGHT
+
+<div align="center">
+
+> **"The best software is not the software with the most features.**
+>
+> **It is the software that solves the right problem."**
+
+### — MANYUSI ALPHONCE
+
+</div>
+
+---
+
+<div align="center">
+
+<img
+src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=22D3EE&center=true&vCenter=true&width=650&lines=Building+digital+products;Solving+real-world+problems;Learning+every+day;Turning+ideas+into+reality"
+alt="Manyusi Alphonce"
+/>
+
+<br><br>
+
+# BUILD · SHIP · LEARN · IMPROVE
+
+🇹🇿 **Tanzania**
+
+<br><br>
+
+**Manyusi Alphonce**
+
+<br>
+
+*Full-Stack Engineer · Product Builder · Systems Thinker*
+
+<br><br>
+
+<a href="https://github.com/manyusialphonce">
+<img src="https://img.shields.io/badge/GitHub-MANYUSIALPHONCE-0D1117?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub"/>
+</a>
+
+<br><br>
+
+© Manyusi Alphonce
+
+</div>
