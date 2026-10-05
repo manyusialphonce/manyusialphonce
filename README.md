@@ -1,494 +1,167 @@
 # MANYUSI ALPHONCE
 
-### FULL-STACK ENGINEER · PRODUCT BUILDER · SYSTEMS DEVELOPER
+### FULL-STACK ENGINEER
 
-**I don't just build features. I build systems.**
+I build digital products, platforms and systems that solve real-world problems — from **idea to production**.
 
-I design and engineer **production-oriented digital products** from interface to infrastructure — combining modern frontend engineering, backend architecture, databases, security, real-time systems and deployment into products that are built to actually work.
-
-**Based in Tanzania 🇹🇿 · Building for real-world use**
+[Tanzania 🇹🇿] · [GitHub] · [LinkedIn]
 
 ---
 
-## ENGINEERING
+## ABOUT ME
 
-```text
-PRODUCT IDEA
-     ↓
-SYSTEM DESIGN
-     ↓
-FRONTEND + BACKEND
-     ↓
-DATA + SECURITY
-     ↓
-INTEGRATION
-     ↓
-TESTING + HARDENING
-     ↓
-DEPLOYMENT
-     ↓
-REAL USERS
+I'm a Full-Stack Engineer focused on building useful, reliable and scalable digital products.
+
+I work across **frontend, backend, databases, security and real-time systems** — with a strong focus on turning ideas into working products.
+
+Currently building products across **education, social intelligence and digital opportunities**.
+
+---
+
+## `whoami`
+
+```ts
+const manyusi = {
+  role: "Full-Stack Engineer",
+
+  building: [
+    "Education Platforms",
+    "Social Intelligence",
+    "Digital Opportunity Systems"
+  ],
+
+  frontend: [
+    "Next.js",
+    "React",
+    "TypeScript"
+  ],
+
+  backend: [
+    "Java",
+    "Spring Boot",
+    "Spring Security"
+  ],
+
+  data: [
+    "PostgreSQL",
+    "Redis",
+    "Flyway"
+  ],
+
+  realTime: [
+    "WebRTC",
+    "LiveKit"
+  ],
+
+  based: "Tanzania 🇹🇿"
+};
 ```
 
-I work across the stack rather than treating frontend and backend as separate worlds.
+---
+
+# WHAT I'M BUILDING
+
+### 🎓 ELMKUSOMA
+
+**Education Platform**
+
+A full-stack education ecosystem built around learners, teachers, institutions, learning resources and live learning.
+
+`Next.js` · `React` · `TypeScript` · `Spring Boot` · `PostgreSQL` · `Redis` · `LiveKit`
+
+---
+
+### 📈 NEXGROW
+
+**Social Growth & Engagement Intelligence**
+
+A platform focused on understanding social activity, engagement and digital growth.
+
+`Next.js` · `TypeScript` · `Backend Systems` · `Analytics`
+
+---
+
+### 🌍 TDOP
+
+**Tanzania Digital Opportunity Platform**
+
+A trusted platform for discovering, verifying and matching people with meaningful opportunities.
+
+`Web Platform` · `Verification` · `Matching` · `PWA`
+
+---
+
+# TECH I WORK WITH
 
 **Frontend**
 
-Next.js · React · TypeScript · JavaScript · Tailwind CSS
+`Next.js` `React` `TypeScript` `JavaScript` `Tailwind CSS`
 
 **Backend**
 
-Java · Spring Boot · Spring Security · REST APIs · JPA / Hibernate
+`Java` `Spring Boot` `Spring Security` `REST APIs`
 
-**Data & Infrastructure**
-
-PostgreSQL · Redis · RabbitMQ · Flyway · Docker · Linux
-
-**Real-Time**
-
-WebRTC · LiveKit · Real-time communication · Live systems
-
-**Engineering**
-
-Git · GitHub · Maven · npm · API design · Testing · Security hardening
-
----
-
-# FLAGSHIP SYSTEMS
-
-## 01 — ELMKUSOMA
-
-### Education infrastructure for learning, teaching and digital classrooms.
-
-A production-oriented education platform designed around the complete learning ecosystem — not just courses.
-
-```text
-LEARN
-TEACH
-MANAGE
-ASSESS
-COMMUNICATE
-STREAM
-RECORD
-ANALYZE
-```
-
-### Core engineering
-
-* Multi-level education architecture
-* Role & permission based access
-* Institution and organizational scope
-* Learning resources and media
-* Assignments, submissions and grading
-* Assessments and question attempts
-* Teacher workflows
-* Learner dashboards
-* Live teaching infrastructure
-* Attendance and participation
-* Secure authentication & recovery
-* PostgreSQL persistence
-* Redis-based infrastructure
-* RabbitMQ where required
-* LiveKit / WebRTC integration
-* Flyway database migrations
-
-### Architecture mindset
-
-```text
-IDENTITY
-   +
-ROLE
-   +
-PERMISSION
-   +
-JURISDICTION / SCOPE
-   +
-RESOURCE OWNERSHIP
-   +
-RESOURCE STATE
-   =
-AUTHORIZED ACTION
-```
-
-ELMKUSOMA is one of my main examples of building a **real platform rather than a collection of screens**.
-
----
-
-## 02 — NEXGROW
-
-### Social Growth & Engagement Intelligence Platform
-
-A product focused on turning social activity into structured growth intelligence.
-
-```text
-DATA
-  ↓
-SIGNALS
-  ↓
-ANALYSIS
-  ↓
-INSIGHTS
-  ↓
-ACTION
-  ↓
-GROWTH
-```
-
-Built around product intelligence, engagement workflows, analytics and scalable application architecture.
-
----
-
-## 03 — TDOP
-
-### Tanzania Digital Opportunity Platform
-
-A trusted opportunity discovery, verification and matching platform.
-
-TDOP is designed around a different problem:
-
-> **Not simply finding opportunities — finding opportunities that can be trusted.**
-
-```text
-DISCOVER
-   ↓
-VERIFY
-   ↓
-MATCH
-   ↓
-APPLY
-   ↓
-TRACK
-```
-
-Designed with:
-
-* Multiple organizational roles
-* Verification workflows
-* Opportunity discovery
-* Matching
-* Moderation
-* Platform governance
-* Low-bandwidth considerations
-* PWA-oriented thinking
-* English + Kiswahili support
-
----
-
-# SELECTED ENGINEERING WORK
-
-### Real Estate Platform
-
-Full-stack real-estate application combining:
-
-**Spring Boot · JPA · Spring Security · JWT · PostgreSQL · React · Vite · Tailwind**
-
-Includes role-based access, property management, search, filtering, favorites and dashboards.
-
-### Manyusi Technologies Systems
-
-Business-oriented digital systems focused on turning operational requirements into usable software products.
-
-The goal is consistent:
-
-**replace fragmented processes with systems that people can actually use.**
-
----
-
-# HOW I ENGINEER
-
-I don't start with:
-
-```text
-"What page should I build?"
-```
-
-I start with:
-
-```text
-What problem exists?
-        ↓
-Who owns the data?
-        ↓
-Who is allowed to access it?
-        ↓
-What state can the resource be in?
-        ↓
-What happens when something fails?
-        ↓
-How does the system scale?
-        ↓
-How do we verify it works?
-```
-
-That approach shapes everything from database design to UI behaviour.
-
----
-
-# SECURITY IS ARCHITECTURE
-
-Security is not a final checkbox.
-
-For systems I build, authorization is treated as a combination of:
-
-```text
-IDENTITY
-+
-ROLE
-+
-PERMISSION
-+
-JURISDICTION / ORGANIZATION SCOPE
-+
-RESOURCE OWNERSHIP
-+
-RESOURCE STATE
-```
-
-Which means:
-
-**Authentication answers:**
-
-> Who are you?
-
-**Authorization answers:**
-
-> What are you allowed to do?
-
-**Resource security answers:**
-
-> Are you allowed to do it to THIS resource?
-
-That distinction matters in production systems.
-
----
-
-# ENGINEERING PRINCIPLES
-
-### 01 — REAL OVER FAKE
-
-No fake dashboards.
-
-No invented statistics.
-
-No mock functionality pretending to be production.
-
-If something is not implemented, it should be treated as not implemented.
-
----
-
-### 02 — ARCHITECTURE OVER QUICK FIXES
-
-I prefer understanding the existing system before changing it.
-
-```text
-INSPECT
-  ↓
-UNDERSTAND
-  ↓
-DESIGN
-  ↓
-IMPLEMENT
-  ↓
-VERIFY
-  ↓
-HARDEN
-```
-
----
-
-### 03 — SECURITY BY DESIGN
-
-Authentication, authorization, ownership, scope, validation and auditability belong in the architecture — not as decoration added at the end.
-
----
-
-### 04 — DATA HAS AN OWNER
-
-Every important piece of data should have a clear:
-
-**owner · scope · lifecycle · access rule**
-
----
-
-### 05 — PRODUCTION MINDSET
-
-A feature isn't finished because the screen works.
-
-It is finished when:
-
-```text
-UI
-+
-API
-+
-DATABASE
-+
-AUTHORIZATION
-+
-VALIDATION
-+
-ERROR HANDLING
-+
-TESTING
-+
-OBSERVABILITY
-```
-
-work together correctly.
-
----
-
-### 06 — BUILD FOR PEOPLE
-
-Technology is only useful when the resulting product solves a real problem for real users.
-
----
-
-# CURRENT FOCUS
-
-```text
-┌─────────────────────────────────────────────┐
-│                                             │
-│  FULL-STACK PRODUCT ENGINEERING             │
-│                                             │
-│  Frontend                                   │
-│  Backend                                    │
-│  Databases                                  │
-│  Security                                   │
-│  Real-Time Systems                          │
-│  Product Architecture                       │
-│  Deployment                                 │
-│                                             │
-└─────────────────────────────────────────────┘
-```
-
-Currently focused on taking complex product ideas and turning them into **coherent, secure and production-oriented systems.**
-
----
-
-# TECHNOLOGY
-
-### FRONTEND
-
-`Next.js` `React` `TypeScript` `JavaScript` `Tailwind CSS`
-
-### BACKEND
-
-`Java` `Spring Boot` `Spring Security` `REST APIs` `JPA` `Hibernate`
-
-### DATABASE
+**Data**
 
 `PostgreSQL` `Redis` `Flyway`
 
-### MESSAGING & REAL-TIME
+**Real-Time**
 
-`RabbitMQ` `WebRTC` `LiveKit`
+`WebRTC` `LiveKit`
 
-### ENGINEERING
+**Tools**
 
-`Git` `GitHub` `Maven` `npm` `Docker` `Linux`
+`Git` `GitHub` `Docker` `Linux` `Maven` `npm`
 
 ---
 
-# THE FULL-STACK VIEW
+# HOW I THINK
 
 ```text
-                    USER
-                     │
-                     ▼
-              ┌─────────────┐
-              │   FRONTEND  │
-              │ Next / React│
-              └──────┬──────┘
-                     │
-                     ▼
-              ┌─────────────┐
-              │     API     │
-              │ Spring Boot │
-              └──────┬──────┘
-                     │
-          ┌──────────┼──────────┐
-          ▼          ▼          ▼
-     PostgreSQL    Redis    RabbitMQ
-          │          │          │
-          └──────────┼──────────┘
-                     │
-                     ▼
-             REAL-TIME SYSTEMS
-                WebRTC / LiveKit
-                     │
-                     ▼
-                  USERS
+Problem
+   ↓
+Understand
+   ↓
+Design
+   ↓
+Build
+   ↓
+Secure
+   ↓
+Test
+   ↓
+Ship
+   ↓
+Improve
 ```
 
-The stack changes.
-
-The engineering principles don't.
+I care about **what the software actually does**, not just how impressive the code looks.
 
 ---
 
-# WHAT I CARE ABOUT
+# CURRENTLY
 
-```text
-SYSTEM DESIGN
-SECURITY
-DATA INTEGRITY
-USER EXPERIENCE
-PERFORMANCE
-RELIABILITY
-MAINTAINABILITY
-SCALABILITY
-```
+🚧 **Building** — ELMKUSOMA
 
-Not every project needs every technology.
+⚡ **Exploring** — Product & System Architecture
 
-Every project does need **good engineering decisions**.
+🔐 **Focused on** — Secure Full-Stack Engineering
+
+🌍 **Building from** — Tanzania
 
 ---
 
-# BEYOND THE CODE
+# SELECTED WORK
 
-I'm interested in the entire journey:
-
-```text
-IDEA
- ↓
-PRODUCT
- ↓
-ARCHITECTURE
- ↓
-IMPLEMENTATION
- ↓
-SECURITY
- ↓
-DEPLOYMENT
- ↓
-USAGE
- ↓
-ITERATION
-```
-
-Because building software is only one part of building a product.
+→ Education technology
+→ Social intelligence
+→ Digital opportunity platforms
+→ Business systems
+→ Real-time applications
 
 ---
 
-# GITHUB
-
-I use GitHub as more than a place to store code.
-
-It is where I document:
-
-**experiments · systems · architecture · products · iterations · engineering decisions**
-
-The repositories below represent different stages of that journey.
-
----
-
-## BUILD. SECURE. SHIP.
-
-### From idea → architecture → production.
+## BUILD · SHIP · IMPROVE
 
 **Manyusi Alphonce**
-Full-Stack Engineer · Product Builder · Systems Developer
-
-**Tanzania 🇹🇿**
+Full-Stack Engineer · Tanzania 🇹🇿
