@@ -8,7 +8,7 @@
 🇹🇿 **Tanzania**
 
 <p>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-Say%20Hello-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:manyusialphonce2002@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   &nbsp;&nbsp;
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-Connect-0D9488?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   &nbsp;&nbsp;
@@ -79,23 +79,23 @@ Mindset     : Build → Ship → Learn → Improve
 
 <table>
 <tr>
-<td width="96"><b>FRONTEND</b></td>
+<td width="96" valign="middle"><b>FRONTEND</b></td>
 <td><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS"/></td>
 </tr>
 <tr>
-<td><b>BACKEND</b></td>
+<td valign="middle"><b>BACKEND</b></td>
 <td><img src="https://skillicons.dev/icons?i=nodejs,express,python,php,java" alt="Node.js, Express, Python, PHP, Java"/></td>
 </tr>
 <tr>
-<td><b>DATABASE</b></td>
+<td valign="middle"><b>DATABASE</b></td>
 <td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,firebase" alt="PostgreSQL, MySQL, MongoDB, SQLite, Firebase"/></td>
 </tr>
 <tr>
-<td><b>DEVOPS</b></td>
+<td valign="middle"><b>DEVOPS</b></td>
 <td><img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx,vercel" alt="Linux, Docker, Git, GitHub, Nginx, Vercel"/></td>
 </tr>
 <tr>
-<td><b>TOOLS</b></td>
+<td valign="middle"><b>TOOLS</b></td>
 <td><img src="https://skillicons.dev/icons?i=vscode,figma,postman" alt="VS Code, Figma, Postman"/></td>
 </tr>
 </table>
@@ -106,22 +106,28 @@ Mindset     : Build → Ship → Learn → Improve
 
 <table>
 <tr>
-<td width="50%" align="center"><img src="https://github-readme-stats.vercel.app/api?username=manyusialphonce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats"/></td>
-<td width="50%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/></td>
-</tr>
-<tr>
-<td align="center"><img src="https://streak-stats.demolab.com?user=manyusialphonce&theme=tokyonight&hide_border=true" alt="GitHub Streak"/></td>
-<td align="center"><img src="https://github-profile-trophy.vercel.app/?username=manyusialphonce&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8" alt="GitHub Trophies"/></td>
+<td width="34%" align="center"><img src="https://github-readme-stats.vercel.app/api?username=manyusialphonce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats"/></td>
+<td width="33%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/></td>
+<td width="33%" align="center"><img src="https://streak-stats.demolab.com?user=manyusialphonce&theme=tokyonight&hide_border=true" alt="GitHub Streak"/></td>
 </tr>
 </table>
 
 ## 📈 Contribution Activity
 
+Contribution history rendered from the GitHub API by this repository's own workflow — no third-party service.
+
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=manyusialphonce&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph"/>
-<br/>
-<img src="https://raw.githubusercontent.com/manyusialphonce/manyusialphonce/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/manyusialphonce/manyusialphonce/output/raw-contrib-grid.svg" alt="GitHub contribution graph" width="100%"/>
 </div>
+
+<details>
+<summary>Contribution snake</summary>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/manyusialphonce/manyusialphonce/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" width="100%"/>
+</div>
+
+</details>
 
 ---
 
@@ -131,34 +137,15 @@ Good software is not only about writing code. I think about the **complete syste
 
 <div align="center">
 <img src="./assets/engineering-flow.svg" alt="Software lifecycle: problem → product → system → engineering → users → feedback → improve → repeat" width="100%"/>
-</div>
-
+<br/>
 **Useful · Secure · Reliable · Maintainable · Scalable**
+</div>
 
 ## 🧠 Engineering Principles
 
-<table>
-<tr>
-<td width="50%"><b>01 · UNDERSTAND</b><br/><sub>Understand the problem before building the solution.</sub></td>
-<td width="50%"><b>02 · SIMPLIFY</b><br/><sub>Prefer simple and clear solutions over unnecessary complexity.</sub></td>
-</tr>
-<tr>
-<td><b>03 · DESIGN</b><br/><sub>Think about architecture, data and user experience before implementation.</sub></td>
-<td><b>04 · BUILD</b><br/><sub>Turn the design into reliable working software.</sub></td>
-</tr>
-<tr>
-<td><b>05 · SECURE</b><br/><sub>Protect users, systems and data from the beginning.</sub></td>
-<td><b>06 · TEST</b><br/><sub>Validate the system before trusting it.</sub></td>
-</tr>
-<tr>
-<td><b>07 · SHIP</b><br/><sub>A product creates value when people can actually use it.</sub></td>
-<td><b>08 · OBSERVE</b><br/><sub>Understand how the system behaves in the real world.</sub></td>
-</tr>
-<tr>
-<td><b>09 · IMPROVE</b><br/><sub>Learn from feedback and continuously make the system better.</sub></td>
-<td><b>10 · SCALE</b><br/><sub>Prepare the product and architecture for future growth.</sub></td>
-</tr>
-</table>
+<div align="center">
+<img src="./assets/engineering-principles.svg" alt="Ten engineering principles: understand, simplify, design, build, secure, test, ship, observe, improve, scale" width="100%"/>
+</div>
 
 <div align="center">
 
@@ -206,11 +193,9 @@ Technology becomes meaningful when it solves problems that people actually exper
 </tr>
 <tr>
 <td>🇹🇿 Tanzania's growing technology ecosystem</td>
-<td>&nbsp;</td>
+<td><i>Software that is not only technically interesting, but also <b>useful in the real world</b>.</i></td>
 </tr>
 </table>
-
-I want to build software that is not only technically interesting, but also **useful in the real world**.
 
 ## 📚 Currently Learning
 
@@ -277,7 +262,7 @@ I enjoy working with people who want to turn ideas into useful products.
 
 <br/>
 
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/EMAIL-SAY%20HELLO-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="mailto:manyusialphonce2002@gmail.com"><img src="https://img.shields.io/badge/EMAIL-SAY%20HELLO-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 &nbsp;
 <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0D9488?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 &nbsp;
@@ -307,7 +292,7 @@ I enjoy working with people who want to turn ideas into useful products.
 
 <br/>
 
-<a href="https://github.com/manyusialphonce"><img src="https://img.shields.io/badge/GitHub-MANYUSIALPHONCE-0D9488?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://github.com/manyusialphonce"><img src="https://img.shields.io/badge/GitHub-MANYUSIALPHONCE-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <br/>
 

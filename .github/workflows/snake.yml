@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -16,26 +20,36 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate snake SVG
+      - name: Generate contribution SVGs
         id: snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Output paths are relative to the workspace root, and each output
+          # accepts a query string of rendering options.
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/raw-contrib-grid.svg
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#F59E0B
+            dist/raw-contrib-grid.svg?palette=github-dark
 
-      - name: Publish snake SVG to output branch
+      - name: Publish contribution SVGs to the output branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p "$RUNNER_TEMP/snake"
-          cp .github/snk/dist/*.svg "$RUNNER_TEMP/snake/"
-          cd "$RUNNER_TEMP/snake"
+          set -euo pipefail
+          shopt -s nullglob
+          svgs=(dist/*.svg)
+          if [ ${#svgs[@]} -eq 0 ]; then
+            echo "No SVGs were generated in dist/ - aborting." >&2
+            exit 1
+          fi
+          echo "Publishing: ${svgs[*]}"
+          work="$(mktemp -d)"
+          cp "${svgs[@]}" "$work/"
+          cd "$work"
           git init -q
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -q -b output
           git add -A
-          git commit -q -m "chore: update contribution snake"
+          git commit -q -m "chore: update contribution graphs"
           git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
