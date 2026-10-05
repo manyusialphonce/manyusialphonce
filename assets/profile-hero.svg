@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Manyusi Alphonce. Full-Stack Engineer, Product Builder, Systems Thinker. Tanzania.">
+  <title>Manyusi Alphonce — Full-Stack Engineer · Product Builder · Systems Thinker</title>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1020"/>
+      <stop offset="0.5" stop-color="#101B33"/>
+      <stop offset="1" stop-color="#0A1526"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="0.55" stop-color="#0D9488"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0D9488"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#1E293B" stroke-width="1" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="220" fill="url(#surface)"/>
+  <rect width="1000" height="220" fill="url(#grid)"/>
+
+  <rect x="0" y="0" width="1000" height="3" fill="url(#accent)"/>
+  <rect x="-140" y="0" width="140" height="3" fill="#FFFFFF" opacity="0.85">
+    <animate attributeName="x" values="-140;1000" dur="11s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="44" y="52" width="66" height="66" rx="16" fill="#0F172A" stroke="url(#accent)" stroke-width="1.5"/>
+  <text x="77" y="94" text-anchor="middle" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="1" fill="#E2E8F0">MA</text>
+
+  <rect x="44" y="150" width="4" height="30" rx="2" fill="url(#rail)"/>
+
+  <text x="134" y="92" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="3.5" fill="#FFFFFF">MANYUSI ALPHONCE</text>
+  <text x="135" y="124" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="15" fill="#94A3B8">Full-Stack Engineer  ·  Product Builder  ·  Systems Thinker</text>
+
+  <circle cx="139" cy="163" r="4" fill="#F59E0B">
+    <animate attributeName="opacity" values="1;0.25;1" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="153" y="168" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="12.5" font-weight="600" letter-spacing="2.5" fill="#CBD5E1">TANZANIA</text>
+
+  <rect x="282" y="148" width="212" height="30" rx="15" fill="none" stroke="#1E3A5F" stroke-width="1"/>
+  <text x="388" y="168" text-anchor="middle" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="11.5" letter-spacing="1" fill="#93A7C4">PRODUCT THINKING</text>
+
+  <rect x="506" y="148" width="238" height="30" rx="15" fill="none" stroke="#1E3A5F" stroke-width="1"/>
+  <text x="625" y="168" text-anchor="middle" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="11.5" letter-spacing="1" fill="#93A7C4">SOFTWARE ENGINEERING</text>
+
+  <rect x="756" y="148" width="200" height="30" rx="15" fill="none" stroke="#1E3A5F" stroke-width="1"/>
+  <text x="856" y="168" text-anchor="middle" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="11.5" letter-spacing="1" fill="#93A7C4">SYSTEM DESIGN</text>
+
+  <text x="956" y="106" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="34" font-weight="700" fill="#13233C">{ }</text>
+
+  <rect x="0" y="219" width="1000" height="1" fill="#152238"/>
+</svg>

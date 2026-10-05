@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 80" width="720" height="80" role="img" aria-label="Roadmap: build, learn, ship, improve, scale, impact.">
+  <title>What's next — build, learn, ship, improve, scale, impact</title>
+  <defs>
+    <marker id="rarrow" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="4.5" markerHeight="4.5" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <path id="roadmapFlow" d="M14 12 H700" fill="none" stroke="none"/>
+  <circle r="3.5" fill="#F59E0B" opacity="0.9">
+    <animateMotion dur="9s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#roadmapFlow" xlink:href="#roadmapFlow"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0.35;0.95;0.35" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <g stroke="#94A3B8" stroke-width="1.2" fill="none">
+    <path d="M112 51 H117" marker-end="url(#rarrow)"/>
+    <path d="M231 51 H236" marker-end="url(#rarrow)"/>
+    <path d="M350 51 H355" marker-end="url(#rarrow)"/>
+    <path d="M469 51 H474" marker-end="url(#rarrow)"/>
+    <path d="M588 51 H593" marker-end="url(#rarrow)"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" text-anchor="middle">
+    <rect x="12" y="24" width="100" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="22" y="59" width="80" height="3" rx="1.5" fill="#2563EB"/>
+    <text x="62" y="50" font-size="12.5" font-weight="700" letter-spacing="1" fill="#0F172A">BUILD</text>
+
+    <rect x="131" y="24" width="100" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="141" y="59" width="80" height="3" rx="1.5" fill="#0D9488"/>
+    <text x="181" y="50" font-size="12.5" font-weight="700" letter-spacing="1" fill="#0F172A">LEARN</text>
+
+    <rect x="250" y="24" width="100" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="260" y="59" width="80" height="3" rx="1.5" fill="#2563EB"/>
+    <text x="300" y="50" font-size="12.5" font-weight="700" letter-spacing="1" fill="#0F172A">SHIP</text>
+
+    <rect x="369" y="24" width="100" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="379" y="59" width="80" height="3" rx="1.5" fill="#0D9488"/>
+    <text x="419" y="50" font-size="12.5" font-weight="700" letter-spacing="1" fill="#0F172A">IMPROVE</text>
+
+    <rect x="488" y="24" width="100" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="498" y="59" width="80" height="3" rx="1.5" fill="#2563EB"/>
+    <text x="538" y="50" font-size="12.5" font-weight="700" letter-spacing="1" fill="#0F172A">SCALE</text>
+
+    <rect x="607" y="24" width="100" height="42" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="617" y="59" width="80" height="3" rx="1.5" fill="#F59E0B"/>
+    <text x="657" y="50" font-size="12.5" font-weight="700" letter-spacing="1" fill="#0F172A">IMPACT</text>
+  </g>
+</svg>

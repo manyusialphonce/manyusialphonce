@@ -1,0 +1,41 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "27 1 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVG
+        id: snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/raw-contrib-grid.svg
+
+      - name: Publish snake SVG to output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/snake"
+          cp .github/snk/dist/*.svg "$RUNNER_TEMP/snake/"
+          cd "$RUNNER_TEMP/snake"
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q -b output
+          git add -A
+          git commit -q -m "chore: update contribution snake"
+          git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
