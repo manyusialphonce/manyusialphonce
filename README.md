@@ -112,9 +112,13 @@ The platform as a running system, not a screen: four Spring Boot services behind
 
 ## 📊 GitHub Analytics
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages on GitHub" width="300"/>
-</div>
+<table>
+<tr>
+<td width="34%" align="center"><img src="https://github-readme-stats.vercel.app/api?username=manyusialphonce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats"/></td>
+<td width="33%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/></td>
+<td width="33%" align="center"><img src="https://streak-stats.demolab.com?user=manyusialphonce&theme=tokyonight&hide_border=true" alt="GitHub Streak"/></td>
+</tr>
+</table>
 
 ## 📈 Contribution Activity
 
