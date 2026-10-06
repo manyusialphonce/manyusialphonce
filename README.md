@@ -15,7 +15,7 @@
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-B45309?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=manyusialphonce&label=PROFILE%20VIEWS&color=2563EB&style=flat-square" alt="Profile views"/>
+<img src="./assets/profile-views.svg" alt="Profile views: 21" width="118"/>
 
 </div>
 

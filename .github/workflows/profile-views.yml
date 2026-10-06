@@ -1,0 +1,89 @@
+name: Update profile views badge
+
+on:
+  schedule:
+    - cron: "41 2 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-views-badge
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch view count and render badge
+        env:
+          BADGE_URL: "https://komarev.com/ghpvc/?username=manyusialphonce&label=PROFILE%20VIEWS&color=2563EB&style=flat-square"
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/views"
+          if ! curl -fsSL --max-time 30 "$BADGE_URL" -o "$RUNNER_TEMP/views/upstream.svg"; then
+            echo "Upstream counter unavailable - keeping the existing badge." >&2
+            exit 0
+          fi
+          count="$(grep -oP '(?<=y="14">)[0-9]+' "$RUNNER_TEMP/views/upstream.svg" | tail -n 1 || true)"
+          if [ -z "$count" ]; then
+            echo "Could not parse a view count - keeping the existing badge." >&2
+            exit 0
+          fi
+          echo "Fetched view count: $count"
+
+          current="$(grep -oP '(?<=aria-label="Profile views: )[0-9]+' assets/profile-views.svg | tail -n 1 || true)"
+          if [ "$current" = "$count" ]; then
+            echo "Badge already current at $count - nothing to commit."
+            exit 0
+          fi
+
+          label="PROFILE VIEWS"
+          label_w=94
+          digits=${#count}
+          value_w=$(( 10 + digits * 7 ))
+          total=$(( label_w + value_w ))
+          label_cx=$(( label_w / 2 ))
+          value_cx=$(( label_w + value_w / 2 ))
+
+          cat > assets/profile-views.svg <<SVG
+          <svg xmlns="http://www.w3.org/2000/svg" width="$total" height="20" role="img" aria-label="Profile views: $count">
+              <linearGradient id="b" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+                  <stop offset="1" stop-opacity=".1"/>
+              </linearGradient>
+              <mask id="a">
+                  <rect width="$total" height="20" rx="0" fill="#fff"/>
+              </mask>
+              <g mask="url(#a)">
+                  <rect width="$total" height="20" fill="#fff"/>
+                  <rect width="$label_w" height="20" fill="#555"/>
+                  <rect x="$label_w" width="$value_w" height="20" fill="#2563EB"/>
+                  <rect width="$total" height="20" fill="url(#b)"/>
+              </g>
+              <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+                  <text x="$label_cx" y="15" fill="#010101" fill-opacity=".3">$label</text>
+                  <text x="$label_cx" y="14">$label</text>
+                  <text x="$value_cx" y="15" fill="#010101" fill-opacity=".3">$count</text>
+                  <text x="$value_cx" y="14">$count</text>
+              </g>
+          </svg>
+          SVG
+
+      - name: Commit updated badge
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-views.svg
+          if git diff --cached --quiet; then
+            echo "No change to commit."
+            exit 0
+          fi
+          git commit -m "chore: update profile views badge"
+          git push
