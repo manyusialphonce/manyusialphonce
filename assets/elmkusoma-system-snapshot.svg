@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 428" width="1080" height="428" role="img" aria-label="ELMKUSOMA system snapshot: users flow through a Next.js web app into a Spring Boot REST API, four services, and a PostgreSQL, Redis and MinIO data layer, producing real-world learning outcomes. Capability modules cover product, system, security and integration.">
+  <title>ELMKUSOMA — System Snapshot</title>
+  <desc>Architecture snapshot of the ELMKUSOMA education platform: a multi-tenant learning ecosystem built on Spring Boot 3.4 with core, media, realtime and workers services, a Next.js 16 web client, PostgreSQL 16, Redis 7, RabbitMQ and MinIO, secured with JWT and role-based access, institution scoping and jurisdiction-based oversight.</desc>
+
+  <defs>
+    <marker id="ah" viewBox="0 0 8 8" refX="6.5" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" class="arrow"/>
+    </marker>
+    <path id="signal" d="M14 84 H1066" fill="none" stroke="none"/>
+  </defs>
+
+  <style>
+    .panel{fill:#F8FAFC;stroke:#E2E8F0}
+    .chip{fill:#FFFFFF;stroke:#E2E8F0}
+    .ink-strong{fill:#1E293B}
+    .ink-mute{fill:#64748B}
+    .ink-faint{fill:#94A3B8}
+    .edge{stroke:#E2E8F0}
+    .acc-b{fill:#2563EB}
+    .acc-t{fill:#0D9488}
+    .acc-a{fill:#B45309}
+    .line{stroke:#CBD5E1;fill:none}
+    .arrow{fill:#CBD5E1}
+    @media (prefers-color-scheme: dark){
+      .panel{fill:#0B1220;stroke:#1B2A42}
+      .chip{fill:#101B2C;stroke:#1E2A40}
+      .ink-strong{fill:#E8EEF6}
+      .ink-mute{fill:#93A4BC}
+      .ink-faint{fill:#64748B}
+      .edge{stroke:#1E2A40}
+      .acc-b{fill:#60A5FA}
+      .acc-t{fill:#2DD4BF}
+      .acc-a{fill:#F59E0B}
+      .line{stroke:#334155}
+      .arrow{fill:#334155}
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="1079" height="427" rx="14" class="panel"/>
+  <rect x="14" y="14" width="58" height="3" rx="1.5" class="acc-b"/>
+
+  <g font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif">
+    <text x="14" y="50" font-size="29" font-weight="700" letter-spacing="3.2" class="ink-strong">ELMKUSOMA</text>
+    <text x="15" y="68" font-size="12" letter-spacing="0.2" class="ink-mute">Education Platform &#183; Multi-tenant Learning Ecosystem</text>
+    <text x="1066" y="50" text-anchor="end" font-size="10" font-weight="600" letter-spacing="2.4" class="ink-faint">SYSTEM SNAPSHOT &#183; 01</text>
+
+    <path d="M14 78 H1066" class="edge" stroke-width="1"/>
+
+    <circle r="3" class="acc-t">
+      <animateMotion dur="11s" repeatCount="indefinite">
+        <mpath href="#signal" xlink:href="#signal"/>
+      </animateMotion>
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <g stroke-width="1.2" stroke-dasharray="4 5">
+      <path d="M174 114 H190" class="line" marker-end="url(#ah)">
+        <animate attributeName="stroke-dashoffset" values="0;-18" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M352 114 H368" class="line" marker-end="url(#ah)">
+        <animate attributeName="stroke-dashoffset" values="0;-18" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M530 114 H546" class="line" marker-end="url(#ah)">
+        <animate attributeName="stroke-dashoffset" values="0;-18" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M708 114 H724" class="line" marker-end="url(#ah)">
+        <animate attributeName="stroke-dashoffset" values="0;-18" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M886 114 H902" class="line" marker-end="url(#ah)">
+        <animate attributeName="stroke-dashoffset" values="0;-18" dur="6s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g text-anchor="middle">
+      <rect x="14" y="92" width="160" height="44" rx="8" class="chip"/>
+      <text x="94" y="110" font-size="11.5" font-weight="700" letter-spacing="1.4" class="ink-strong">USERS</text>
+      <text x="94" y="125" font-size="8.5" class="ink-mute">learners &#183; educators &#183; admins</text>
+
+      <rect x="192" y="92" width="160" height="44" rx="8" class="chip"/>
+      <text x="272" y="110" font-size="11.5" font-weight="700" letter-spacing="1.4" class="ink-strong">WEB APP</text>
+      <text x="272" y="125" font-size="8.5" class="ink-mute">Next.js 16 &#183; React 19</text>
+
+      <rect x="370" y="92" width="160" height="44" rx="8" class="chip"/>
+      <text x="450" y="110" font-size="11.5" font-weight="700" letter-spacing="1.4" class="ink-strong">REST API</text>
+      <text x="450" y="125" font-size="8.5" class="ink-mute">Spring Boot 3.4</text>
+
+      <rect x="548" y="92" width="160" height="44" rx="8" class="chip"/>
+      <text x="628" y="110" font-size="11.5" font-weight="700" letter-spacing="1.4" class="ink-strong">SERVICES</text>
+      <text x="628" y="125" font-size="8.5" class="ink-mute">core &#183; media &#183; realtime</text>
+
+      <rect x="726" y="92" width="160" height="44" rx="8" class="chip"/>
+      <text x="806" y="110" font-size="11.5" font-weight="700" letter-spacing="1.4" class="ink-strong">DATA</text>
+      <text x="806" y="125" font-size="8.5" class="ink-mute">PostgreSQL &#183; Redis &#183; MinIO</text>
+
+      <rect x="904" y="92" width="160" height="44" rx="8" class="chip"/>
+      <text x="984" y="110" font-size="11.5" font-weight="700" letter-spacing="1.4" class="ink-strong">OUTCOMES</text>
+      <text x="984" y="125" font-size="8.5" class="ink-mute">learning &#183; assessment &#183; records</text>
+    </g>
+
+    <g>
+      <rect x="14" y="156" width="251" height="160" rx="10" class="chip"/>
+      <rect x="14" y="174" width="3" height="124" rx="1.5" class="acc-b"/>
+      <text x="30" y="182" font-size="11" font-weight="700" letter-spacing="1" class="acc-b">01</text>
+      <text x="56" y="182" font-size="12.5" font-weight="700" letter-spacing="2.2" class="ink-strong">PRODUCT</text>
+      <path d="M30 194 H249" class="edge" stroke-width="1"/>
+      <text x="30" y="216" font-size="10.5" class="ink-mute">Learning</text>
+      <text x="30" y="232" font-size="10.5" class="ink-mute">Assessment</text>
+      <text x="30" y="248" font-size="10.5" class="ink-mute">Progress</text>
+      <text x="30" y="264" font-size="10.5" class="ink-mute">Live Classes</text>
+      <text x="30" y="280" font-size="10.5" class="ink-mute">Events</text>
+      <text x="30" y="296" font-size="10.5" class="ink-mute">Certificates</text>
+    </g>
+
+    <g>
+      <rect x="281" y="156" width="251" height="160" rx="10" class="chip"/>
+      <rect x="281" y="174" width="3" height="124" rx="1.5" class="acc-t"/>
+      <text x="297" y="182" font-size="11" font-weight="700" letter-spacing="1" class="acc-t">02</text>
+      <text x="323" y="182" font-size="12.5" font-weight="700" letter-spacing="2.2" class="ink-strong">SYSTEM</text>
+      <path d="M297 194 H516" class="edge" stroke-width="1"/>
+      <text x="297" y="216" font-size="10.5" class="ink-mute">Spring Boot 3.4</text>
+      <text x="297" y="232" font-size="10.5" class="ink-mute">Next.js 16</text>
+      <text x="297" y="248" font-size="10.5" class="ink-mute">PostgreSQL 16</text>
+      <text x="297" y="264" font-size="10.5" class="ink-mute">Redis 7</text>
+      <text x="297" y="280" font-size="10.5" class="ink-mute">RabbitMQ</text>
+      <text x="297" y="296" font-size="10.5" class="ink-mute">MinIO</text>
+    </g>
+
+    <g>
+      <rect x="548" y="156" width="251" height="160" rx="10" class="chip"/>
+      <rect x="548" y="174" width="3" height="124" rx="1.5" class="acc-a"/>
+      <text x="564" y="182" font-size="11" font-weight="700" letter-spacing="1" class="acc-a">03</text>
+      <text x="590" y="182" font-size="12.5" font-weight="700" letter-spacing="2.2" class="ink-strong">SECURITY</text>
+      <path d="M564 194 H783" class="edge" stroke-width="1"/>
+      <text x="564" y="216" font-size="10.5" class="ink-mute">JWT Access + Refresh</text>
+      <text x="564" y="232" font-size="10.5" class="ink-mute">BCrypt Passwords</text>
+      <text x="564" y="248" font-size="10.5" class="ink-mute">Role-Based Access</text>
+      <text x="564" y="264" font-size="10.5" class="ink-mute">Institution Scoping</text>
+      <text x="564" y="280" font-size="10.5" class="ink-mute">Ownership</text>
+      <text x="564" y="296" font-size="10.5" class="ink-mute">Jurisdiction</text>
+    </g>
+
+    <g>
+      <rect x="815" y="156" width="251" height="160" rx="10" class="chip"/>
+      <rect x="815" y="174" width="3" height="124" rx="1.5" class="acc-b"/>
+      <text x="831" y="182" font-size="11" font-weight="700" letter-spacing="1" class="acc-b">04</text>
+      <text x="857" y="182" font-size="12.5" font-weight="700" letter-spacing="2.2" class="ink-strong">INTEGRATION</text>
+      <path d="M831 194 H1050" class="edge" stroke-width="1"/>
+      <text x="831" y="216" font-size="10.5" class="ink-mute">REST APIs</text>
+      <text x="831" y="232" font-size="10.5" class="ink-mute">WebSocket / STOMP</text>
+      <text x="831" y="248" font-size="10.5" class="ink-mute">LiveKit WebRTC</text>
+      <text x="831" y="264" font-size="10.5" class="ink-mute">Object Storage</text>
+      <text x="831" y="280" font-size="10.5" class="ink-mute">Async Events</text>
+      <text x="831" y="296" font-size="10.5" class="ink-mute">Email Workers</text>
+    </g>
+
+    <rect x="14" y="332" width="1052" height="38" rx="8" class="chip"/>
+    <text x="540" y="356" text-anchor="middle" font-size="12" font-weight="600" letter-spacing="2" class="ink-strong">SPRING BOOT 3.4 &#183; NEXT.JS 16 &#183; POSTGRESQL 16 &#183; REDIS 7 &#183; RABBITMQ &#183; MINIO &#183; LIVEKIT</text>
+
+    <text x="540" y="400" text-anchor="middle" font-size="10.5" letter-spacing="2.6" class="ink-mute">EDUCATION &#183; LIVE LEARNING &#183; ASSESSMENT &#183; RESOURCES &#183; CERTIFICATES &#183; RECORDS</text>
+  </g>
+</svg>

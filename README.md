@@ -75,6 +75,14 @@ Mindset     : Build → Ship → Learn → Improve
 </tr>
 </table>
 
+### ELMKUSOMA — System Snapshot
+
+The platform as a running system, not a screen: four Spring Boot services behind a Next.js client, institution-scoped on PostgreSQL, with Redis, RabbitMQ, MinIO and LiveKit underneath.
+
+<div align="center">
+<img src="./assets/elmkusoma-system-snapshot.svg" alt="ELMKUSOMA system snapshot — product, system, security and integration capability modules, with the flow from users through the web app and REST API to services, data and real-world outcomes" width="100%"/>
+</div>
+
 ## 🛠️ Tech Stack
 
 <table>
@@ -104,13 +112,9 @@ Mindset     : Build → Ship → Learn → Improve
 
 ## 📊 GitHub Analytics
 
-<table>
-<tr>
-<td width="34%" align="center"><img src="https://github-readme-stats.vercel.app/api?username=manyusialphonce&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats"/></td>
-<td width="33%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/></td>
-<td width="33%" align="center"><img src="https://streak-stats.demolab.com?user=manyusialphonce&theme=tokyonight&hide_border=true" alt="GitHub Streak"/></td>
-</tr>
-</table>
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manyusialphonce&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages on GitHub" width="300"/>
+</div>
 
 ## 📈 Contribution Activity
 
@@ -170,7 +174,7 @@ It should exist because it solves a problem, creates value, improves an experien
 
 <br/>
 
-**UNDERSTAND → BUILD → SHIP → IMPROVE**
+UNDERSTAND → BUILD → SHIP → IMPROVE
 
 </div>
 
