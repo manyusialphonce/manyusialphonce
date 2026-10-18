@@ -85,6 +85,10 @@ The platform as a running system, not a screen: four Spring Boot services behind
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+<img src="./assets/tech-badges.svg" alt="Java, Python, Spring Boot, React, PostgreSQL, Linux, GitHub and Cybersecurity" width="452"/>
+</div>
+
 <table>
 <tr>
 <td width="96" valign="middle"><b>FRONTEND</b></td>
