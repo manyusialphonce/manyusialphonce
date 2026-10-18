@@ -15,6 +15,8 @@
   <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-B45309?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 </p>
 
+<img src="./assets/tech-badges.svg" alt="Java, Python, Spring Boot, React, PostgreSQL, Linux, GitHub and Cybersecurity" width="452"/>
+
 <img src="./assets/profile-views.svg" alt="Profile views: 21" width="118"/>
 
 </div>
@@ -84,10 +86,6 @@ The platform as a running system, not a screen: four Spring Boot services behind
 </div>
 
 ## 🛠️ Tech Stack
-
-<div align="center">
-<img src="./assets/tech-badges.svg" alt="Java, Python, Spring Boot, React, PostgreSQL, Linux, GitHub and Cybersecurity" width="452"/>
-</div>
 
 <table>
 <tr>
