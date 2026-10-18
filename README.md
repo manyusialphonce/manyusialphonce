@@ -5,7 +5,7 @@
 # MANYUSI ALPHONCE
 
 **Full-Stack Engineer · Product Builder · Systems Thinker**
-🇹🇿 **Tanzania**
+📍 **Dar es Salaam, Tanzania**
 
 <p>
   <a href="mailto:manyusialphonce2002@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -60,19 +60,19 @@ Mindset     : Build → Ship → Learn → Improve
 
 <table>
 <tr>
-<td width="50%"><b>🎓 ELMKUSOMA</b><br/>Education &amp; Learning Platform<br/><sub>Education</sub></td>
+<td width="50%"><b>🎓 <a href="https://github.com/manyusialphonce/ELMKUSOMA">ELMKUSOMA</a></b><br/>Education &amp; Learning Platform<br/><sub>Education</sub></td>
 <td width="50%"><b>🌍 TDOP</b><br/>Tanzania Digital Opportunity Platform<br/><sub>Digital Opportunity</sub></td>
 </tr>
 <tr>
-<td><b>🏢 Manyusi Technologies</b><br/>Digital Products &amp; Technology Solutions<br/><sub>Digital Products</sub></td>
-<td><b>💼 Manyusi Sales System</b><br/>Sales &amp; Business Operations<br/><sub>Sales Operations</sub></td>
+<td><b>🏢 <a href="https://github.com/manyusialphonce/manyusi-technologies-limited">Manyusi Technologies</a></b><br/>Digital Products &amp; Technology Solutions<br/><sub>Digital Products</sub></td>
+<td><b>💼 <a href="https://github.com/manyusialphonce/Manyusitechnologies-sales-system">Manyusi Sales System</a></b><br/>Sales &amp; Business Operations<br/><sub>Sales Operations</sub></td>
 </tr>
 <tr>
-<td><b>🍽️ Restaurant Management System</b><br/>Restaurant Operations<br/><sub>Restaurant Operations</sub></td>
-<td><b>🚚 Logistics Management System</b><br/>Logistics &amp; Operations<br/><sub>Logistics</sub></td>
+<td><b>🍽️ <a href="https://github.com/manyusialphonce/restaurant-management-system">Restaurant Management System</a></b><br/>Restaurant Operations<br/><sub>Restaurant Operations</sub></td>
+<td><b>🚚 <a href="https://github.com/manyusialphonce/logistics-management-system">Logistics Management System</a></b><br/>Logistics &amp; Operations<br/><sub>Logistics</sub></td>
 </tr>
 <tr>
-<td><b>🏠 Hostel Management System</b><br/>Hostel &amp; Accommodation Management<br/><sub>Hostel Management</sub></td>
+<td><b>🏠 <a href="https://github.com/manyusialphonce/hostel-management-system">Hostel Management System</a></b><br/>Hostel &amp; Accommodation Management<br/><sub>Hostel Management</sub></td>
 <td>&nbsp;</td>
 </tr>
 </table>
@@ -94,7 +94,7 @@ The platform as a running system, not a screen: four Spring Boot services behind
 </tr>
 <tr>
 <td valign="middle"><b>BACKEND</b></td>
-<td><img src="https://skillicons.dev/icons?i=nodejs,express,python,php,java" alt="Node.js, Express, Python, PHP, Java"/></td>
+<td><img src="https://skillicons.dev/icons?i=nodejs,express,python,php,java,kotlin" alt="Node.js, Express, Python, PHP, Java, Kotlin"/></td>
 </tr>
 <tr>
 <td valign="middle"><b>DATABASE</b></td>
