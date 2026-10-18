@@ -43,35 +43,26 @@ jobs:
             exit 0
           fi
 
-          label="PROFILE VIEWS"
-          label_w=94
+          label_w=123
           digits=${#count}
           value_w=$(( 10 + digits * 7 ))
           total=$(( label_w + value_w ))
-          label_cx=$(( label_w / 2 ))
           value_cx=$(( label_w + value_w / 2 ))
 
           cat > assets/profile-views.svg <<SVG
-          <svg xmlns="http://www.w3.org/2000/svg" width="$total" height="20" role="img" aria-label="Profile views: $count">
-              <linearGradient id="b" x2="0" y2="100%">
-                  <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-                  <stop offset="1" stop-opacity=".1"/>
-              </linearGradient>
-              <mask id="a">
-                  <rect width="$total" height="20" rx="0" fill="#fff"/>
-              </mask>
-              <g mask="url(#a)">
-                  <rect width="$total" height="20" fill="#fff"/>
-                  <rect width="$label_w" height="20" fill="#555"/>
-                  <rect x="$label_w" width="$value_w" height="20" fill="#2563EB"/>
-                  <rect width="$total" height="20" fill="url(#b)"/>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 $total 24" width="$total" height="24" role="img" aria-label="Profile views: $count">
+            <title>Profile Views</title>
+            <desc>GitHub profile view counter showing $count views.</desc>
+            <g font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif">
+              <rect width="$total" height="24" rx="5" fill="#1E293B"/>
+              <rect x="$label_w" width="$value_w" height="24" fill="#2563EB"/>
+              <g transform="translate(7,5) scale(0.5833)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round">
+                <path d="M2.6 12S6.2 6.2 12 6.2 21.4 12 21.4 12 17.8 17.8 12 17.8 2.6 12 2.6 12Z"/>
+                <circle cx="12" cy="12" r="2.6" fill="#FFFFFF" stroke="none"/>
               </g>
-              <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-                  <text x="$label_cx" y="15" fill="#010101" fill-opacity=".3">$label</text>
-                  <text x="$label_cx" y="14">$label</text>
-                  <text x="$value_cx" y="15" fill="#010101" fill-opacity=".3">$count</text>
-                  <text x="$value_cx" y="14">$count</text>
-              </g>
+              <text x="26" y="16.8" font-size="11.5" font-weight="600" letter-spacing="0.4" fill="#FFFFFF">PROFILE VIEWS</text>
+              <text x="$value_cx" y="16.8" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">$count</text>
+            </g>
           </svg>
           SVG
 

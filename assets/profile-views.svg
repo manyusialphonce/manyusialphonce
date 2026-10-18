@@ -1,21 +1,14 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="118" height="20" role="img" aria-label="Profile views: 21">
-    <linearGradient id="b" x2="0" y2="100%">
-        <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
-        <stop offset="1" stop-opacity=".1"/>
-    </linearGradient>
-    <mask id="a">
-        <rect width="118" height="20" rx="0" fill="#fff"/>
-    </mask>
-    <g mask="url(#a)">
-        <rect width="118" height="20" fill="#fff"/>
-        <rect width="94" height="20" fill="#555"/>
-        <rect x="94" width="24" height="20" fill="#2563EB"/>
-        <rect width="118" height="20" fill="url(#b)"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147 24" width="147" height="24" role="img" aria-label="Profile views: 21">
+  <title>Profile Views</title>
+  <desc>GitHub profile view counter showing 21 views.</desc>
+  <g font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif">
+    <rect width="147" height="24" rx="5" fill="#1E293B"/>
+    <rect x="123" width="24" height="24" fill="#2563EB"/>
+    <g transform="translate(7,5) scale(0.5833)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round">
+      <path d="M2.6 12S6.2 6.2 12 6.2 21.4 12 21.4 12 17.8 17.8 12 17.8 2.6 12 2.6 12Z"/>
+      <circle cx="12" cy="12" r="2.6" fill="#FFFFFF" stroke="none"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-        <text x="47" y="15" fill="#010101" fill-opacity=".3">PROFILE VIEWS</text>
-        <text x="47" y="14">PROFILE VIEWS</text>
-        <text x="106" y="15" fill="#010101" fill-opacity=".3">21</text>
-        <text x="106" y="14">21</text>
-    </g>
+    <text x="26" y="16.8" font-size="11.5" font-weight="600" letter-spacing="0.4" fill="#FFFFFF">PROFILE VIEWS</text>
+    <text x="135" y="16.8" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">21</text>
+  </g>
 </svg>
